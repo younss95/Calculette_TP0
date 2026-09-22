@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package calculator;
 
 import java.util.Scanner;
@@ -37,7 +33,8 @@ public class Calculator {
             System.out.println("ERREUR !");
             System.exit(0);        // permet d'interrompre le programme en cas d'erreur
         }
-        
+
+        // Saisie des deux opérandes
         System.out.println("Entrez la première valeur :");
         int operande1;
         operande1 = sc.nextInt();
@@ -49,6 +46,8 @@ public class Calculator {
         //maintenant on calcule le résultat avec les swtich case
         int result = 0;
         
+        
+        // Calcul du résultat selon l'opération choisie grâce au Switch/case
         switch(operator){
             case 1 :    //Addition +
                 result = operande1 + operande2;
