@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package exo1;
 
 import java.util.Scanner;
@@ -9,6 +5,8 @@ import java.util.Scanner;
 /**
  *
  * @author younes
+ * Cours : Java
+ * Objectif : afficher le prénom de l'utilisateur
  */
 public class Exo1 {
 
