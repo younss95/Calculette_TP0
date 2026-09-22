@@ -6,6 +6,8 @@ import java.util.Scanner;
 /**
  *
  * @author younes
+ * Cours : Java
+ * Objectif : Addition des 5 premiers entiers
  */
 public class Exo2 {
 
